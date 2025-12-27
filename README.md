@@ -7,12 +7,6 @@ Quick script to reset CrossOver trial and backup Steam games.
 - Default bottle path: `~/Library/Application Support/CrossOver/Bottles/Steam`
 - Python 3.x
 
-## What it does
-
-1. Resets CrossOver trial (updates FirstRunDate in plist)
-2. Backs up Steam games from `steamapps/common` to `~/Documents/steam_common`
-3. Deletes the Steam bottle
-
 ## Usage
 ```bash
 python main.py
